@@ -21,7 +21,7 @@ ok
 # node packaged modules  
 
 ### NPM là gì ?. Nêu các lợi ích khi sử dụng trình quản lí package ?  
-
+NPM(NodeJS Project Manager) là 1 thư viện quản lí các file, modul
 ### File package.json dùng để làm gì ? Cách tạo file và nêu chức năng của từng trường trong file package.json  
 
 ### Dependency la gì ?, devDependencies là gì ?  
@@ -34,3 +34,10 @@ ok
 
 ### Chạy lệnh Js trong script, nhận xét sự khác biệt giữa chạy code trong script và ngoài script  
 
+### No SQL DB là gì ?   
+
+### Trình bày sự khác nhau giữa DBMS và RDBMS ?  
+
+### Mongo DB là gì ? Cách cấu hình Mongo BD trong express ?  
+
+### Thực hiện Connect node voi MongoBD ?  
