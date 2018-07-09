@@ -18,3 +18,19 @@ ok
 
 ### Viết script để lắng nghe cổng 3000 trả về Hello World ?  
 
+# node packaged modules  
+
+### NPM là gì ?. Nêu các lợi ích khi sử dụng trình quản lí package ?  
+
+### File package.json dùng để làm gì ? Cách tạo file và nêu chức năng của từng trường trong file package.json  
+
+### Dependency la gì ?, devDependencies là gì ?  
+
+### Tự tạo file package.json bằng npm init ?  
+
+### Cài đặt thư viện bằng npm add dependencies trong file package.json  
+
+### Xoá thư viện trong file package.json ?  
+
+### Chạy lệnh Js trong script, nhận xét sự khác biệt giữa chạy code trong script và ngoài script  
+
