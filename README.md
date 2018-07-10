@@ -23,7 +23,18 @@ ok
 ### NPM là gì ?. Nêu các lợi ích khi sử dụng trình quản lí package ?  
 NPM(NodeJS Project Manager) là 1 thư viện quản lí các file, modul
 ### File package.json dùng để làm gì ? Cách tạo file và nêu chức năng của từng trường trong file package.json  
+file package.json là 1 object dùng để giới thiệu thư mục.  
+Cách tạo:  
+- tạo 1 file .js  
+- gõ lệnh npm init.  
 
+name: Tên của Project  
+version: Version của Project  
+description: Mô tả cho Project  
+main: File chạy chính (chạy đầu tiên) của Project  
+scripts: Danh sách các khai báo cấu hình bổ sung cho npm. Như trong chuỗi trên thì giá trị của test chính là câu thông báo và dừng chương trình khi bị lỗi.  
+author: Tên tác giả của Project  
+license: License của Project, giá trị mặc định là ISC.    
 ### Dependency la gì ?, devDependencies là gì ?  
 
 ### Tự tạo file package.json bằng npm init ?  
