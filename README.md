@@ -45,9 +45,11 @@ npm install ten_file
 ### Xoá thư viện trong file package.json ?  
 npm unstall ten_file
 ### Chạy lệnh Js trong script, nhận xét sự khác biệt giữa chạy code trong script và ngoài script  
-
+chạy trong script gõ: node + enter + nội dung cần gõ.  
+chạy ngoài là mở file ở ngoài lên.  
 ### No SQL DB là gì ?   
-
+cách cài đặt nosql: npm install nosql  
+no sql là ứng dụng cơ sở dữ liệu.  
 ### Trình bày sự khác nhau giữa DBMS và RDBMS ?  
 
 ### Mongo DB là gì ? Cách cấu hình Mongo BD trong express ?  
