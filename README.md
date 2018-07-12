@@ -51,7 +51,11 @@ chạy ngoài là mở file ở ngoài lên.
 cách cài đặt nosql: npm install nosql  
 no sql là ứng dụng cơ sở dữ liệu.  
 ### Trình bày sự khác nhau giữa DBMS và RDBMS ?  
-
+DBMS và RDBMS đều là hệ thống quản lí cơ sở dữ liệu.  
+- DBMS lưu dữ liệu dưới dạng file.  RDBMS lưu dữ liệu dưới dạng bảng.  
+-DBMS dùng cho tổ chức nhỏ,Vd là file system, xml,... RDBMS dùng cho tổ chức lớn, hỗ trợ nhiều người dùng,Vd là MySQL,Oracle hay SQL Server...  
 ### Mongo DB là gì ? Cách cấu hình Mongo BD trong express ?  
-npm install express
+Mongo DB là 1 hệ quản trị cơ sở dữ liệu thuộc No SQL.  
+npm install express  
 ### Thực hiện Connect node voi MongoBD ?  
+trước tiên ta cài dặt thư viện mongoBD: npm install mongodb  
