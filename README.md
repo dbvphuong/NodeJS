@@ -68,7 +68,8 @@ debug là dừng việc thực thi chương trình tại 1 thời điểm nào �
 ### Phân biệt babel-cli, babel-presets-es2015, babel-presets-stage-2 ?  
 
 ### Sử dụng npm để install babel và các presets của babel  
-
+cài đặt babel:  
+npm install --save-dev babel-cli
 ### Webpack là gì ?. Ứng dụng của Webpack trong dự án NodeJS  
 
 ###  Sử dụng NPM để cài đặt webpack ?. Cấu hình webpack trong file webpack.config.js.  
