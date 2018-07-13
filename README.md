@@ -59,3 +59,20 @@ Mongo DB là 1 hệ quản trị cơ sở dữ liệu thuộc No SQL.
 npm install express  
 ### Thực hiện Connect node voi MongoBD ?  
 trước tiên ta cài dặt thư viện mongoBD: npm install mongodb  
+
+# Dev-tools  
+### Tìm hiểu node debugger là gì ?  
+debug là dừng việc thực thi chương trình tại 1 thời điểm nào đó để kiểm tra.  
+### Debug một chương trình tính tích một mảng số dương, sử dụng các câu lệnh continue( c ), next( n ), repl( read eval print loop )  
+
+### Phân biệt babel-cli, babel-presets-es2015, babel-presets-stage-2 ?  
+
+### Sử dụng npm để install babel và các presets của babel  
+
+### Webpack là gì ?. Ứng dụng của Webpack trong dự án NodeJS  
+
+###  Sử dụng NPM để cài đặt webpack ?. Cấu hình webpack trong file webpack.config.js.  
+
+### Linter là gì ?, Cài đặt ES Lint bằng NPM  
+
+### Sử dụng ESLint test coding convention yourfile.js  
