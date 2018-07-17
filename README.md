@@ -71,8 +71,10 @@ debug là dừng việc thực thi chương trình tại 1 thời điểm nào �
 cài đặt babel:  
 npm install --save-dev babel-cli
 ### Webpack là gì ?. Ứng dụng của Webpack trong dự án NodeJS  
+Webpack là một công cụ dùng để quản líc các module.  
 
 ###  Sử dụng NPM để cài đặt webpack ?. Cấu hình webpack trong file webpack.config.js.  
+npm install webpack -g  
 
 ### Linter là gì ?, Cài đặt ES Lint bằng NPM  
 
