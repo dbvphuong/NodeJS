@@ -88,4 +88,7 @@ eslint --init
 Cần có phân cứng: cần có 1 file lưu trữ các file thành phần tạo nên 1 website(htlm,css,js,...)  
 và phần mềm: URL(tên địa chỉ web), HTTP(tên phương thức để hiển thị trang web).  
 ### Module Pattern là gì ?  
+là phương pháp triển khai code theo các module riêng biệt.  
+### Các phương thức require, exports, module.exports dùng để làm gì ?  
+
 
