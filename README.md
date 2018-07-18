@@ -77,5 +77,15 @@ Webpack là một công cụ dùng để quản líc các module.
 npm install webpack -g  
 
 ### Linter là gì ?, Cài đặt ES Lint bằng NPM  
-
+Linter là từ chỉ chung một nhóm phần mềm có nhiệm vụ đọc code của bạn và cho bạn biết đoạn code đó có lỗi gì về cú pháp hoặc “phong cách” (code style) hay không.  
+cài đặt ES LInt:  
+eslint --init  
 ### Sử dụng ESLint test coding convention yourfile.js  
+
+# Node core  
+
+### Để trở thành một webserver thì hệ thống cần đảm bảo những tiêu chí gì ?  
+Cần có phân cứng: cần có 1 file lưu trữ các file thành phần tạo nên 1 website(htlm,css,js,...)  
+và phần mềm: URL(tên địa chỉ web), HTTP(tên phương thức để hiển thị trang web).  
+### Module Pattern là gì ?  
+
