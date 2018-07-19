@@ -105,5 +105,15 @@ dùng để xuất 1 file trong javascript.
 
 ### Node APIs là gì ?  
 
+### Fs module trong NodeJS dùng để làm gì ?  
+Fs module là module dùng để xử lý đọc ghi file trên Server  
+### Viết  chương trình tạo, viết và đọc file ?  
+Cách cài đặt module: --experimental-modules  
+Cách ghi file: fs.writeFile(file, data, optionsObject, callback);  
+file: đường dẫn file cần ghi  
+data: nội dung cần ghi  
+optionsObject: là một đối tượng gồm: encoding, mode, flag  
+callback: hàm gọi sau khi ghi xong  
 
+### Sự khác biệt giữa Fs và Fs synchronous là gì ?
 
