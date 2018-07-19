@@ -90,5 +90,20 @@ và phần mềm: URL(tên địa chỉ web), HTTP(tên phương thức để hi
 ### Module Pattern là gì ?  
 là phương pháp triển khai code theo các module riêng biệt.  
 ### Các phương thức require, exports, module.exports dùng để làm gì ?  
+dùng để xuất 1 file trong javascript.  
+```
+    var module = { exports: {} };
+    var exports = module.exports;
+
+    // your code
+
+    return module.exports;
+```
+### So sánh require ES5 => import Es6, sử dụng Babel để convert từ ES6 về  ES5  
+
+### So sánh require/import relative file, library  
+
+### Node APIs là gì ?  
+
 
 
