@@ -117,3 +117,45 @@ callback: hàm gọi sau khi ghi xong
 
 ### Sự khác biệt giữa Fs và Fs synchronous là gì ?
 hàm Fs(bất đồng bộ) cần callback khi gọi hàm xong.
+### Http module trong NodeJS dùng để làm gì ?  
+Tọa 1 cổng http sever kết nối với client
+### Tạo một server đơn giản lẳng nghe ở cổng 8000, request trả lại "Hello world" sử dụng Http APIs  
+```
+// khai báo sử dụng module HTTP
+var http = require('http');
+
+//Khởi tạo server chạy cổng 8000
+http.createServer(function (request, response) {
+    //request: yêu cầu khách hàng. response: trả về khách hàng
+    response.write('hello world!');
+    response.end();
+}).listen(8000);
+```
+### Event emitter trong nodejs là gì ?. Kể tên và nêu chức năng của các phương thức trong lớp Event emitter  
+khi các đối tượng sinh ra sự kiện thì đối tượng đó chính là event emitter.  
+Các chức năng của các phương thức trong lớp Event emitter:  
+```
+1	addListener(event, listener)
+Thêm một Listener vào phần cuối của mảng các Listener cho một sự kiện cụ thể
+2	on(event, listener)
+Thêm một Listener vào phần cuối của mảng các Listener cho một sự kiện cụ thể
+3	once(event, listener)
+Thêm một One-Time Listener cho sự kiện. Listener dạng này sẽ chỉ được gọi khi sự kiện được kích hoạt, sau đó nó sẽ bị xóa
+4	removeListener(event, listener)
+Xóa một Listener ra khỏi mảng các Listener cho một sự kiện nào đó.
+5	removeAllListeners([event])
+Xóa tất cả Listener của một sự kiện
+6	setMaxListeners(n)
+Theo mặc định, lớp EventEmitters sẽ in một lời cảnh báo nếu bạn thêm nhiều hơn 10 Listener cho một sự kiện cụ thể. Việc này khá hữu ích, bởi vì nó sẽ giúp tìm ra các lỗi gây rò rỉ bộ nhớ. Tất nhiên, không phải tất cả các Emitters đều cần được giới hạn với con số là 10. Hàm này cho phép bạn tăng con số đó. Thiết lập nó về 0 để không giới hạn lượng Listener cần thêm
+7	listeners(event)
+Trả về một mảng bao gồm các Listener cho một sự kiện cụ thể nào đó
+8	emit(event, [arg1], [arg2], [...])
+Thực thi từng Listener với các tham số đã cho. Trả về true nếu sự kiện có các Listener, và false nếu không có
+```
+### Chức năng của Event Loop là gì ?.  Event loop trong nodeJs có giống Event loop trong engine V8 hay không ?  
+
+###  Trình bày các khái niệm: Event Driven, Non - Blocking trong nodeJS  
+
+### Phân biệt giữa asynchronous và Non - Blocking trong NodeJS ?  
+
+
