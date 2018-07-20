@@ -116,4 +116,4 @@ optionsObject: là một đối tượng gồm: encoding, mode, flag
 callback: hàm gọi sau khi ghi xong  
 
 ### Sự khác biệt giữa Fs và Fs synchronous là gì ?
-
+hàm Fs(bất đồng bộ) cần callback khi gọi hàm xong.
