@@ -153,9 +153,33 @@ Trả về một mảng bao gồm các Listener cho một sự kiện cụ thể
 Thực thi từng Listener với các tham số đã cho. Trả về true nếu sự kiện có các Listener, và false nếu không có
 ```
 ### Chức năng của Event Loop là gì ?.  Event loop trong nodeJs có giống Event loop trong engine V8 hay không ?  
-
+là đọc tất cả các dòng code, sau đó thực thi lần lượt các dòng code JS trc, sau đó mới thực thi code trong engine V8.  
+không khác gì.
 ###  Trình bày các khái niệm: Event Driven, Non - Blocking trong nodeJS  
-
+mô hình event Driven là toàn bộ xử lí của sever sẽ bằng 1 vòng lặp event loop trung tâm.  
+Non - blocking là kiểm tra những kết nối có sự kiện để trả về khách hàng, nếu không có dữ liệu thì thông báo lỗi cho khách hàng.  
 ### Phân biệt giữa asynchronous và Non - Blocking trong NodeJS ?  
+Non-blocking socket là dạng kết nối asynchronous.  
 
+# Express  
+### Express là gì ?. Nếu chức năng của framework này ?  
+express là 1 framework nhỏ , được xây dựng trên nền tảng nodejs, để cung cấp tính năng ptrien web.  
+### WebServices la gi ? Có bao nhiêu loại: RESTfull, SOAP  
+Web Serice là 1 ứng dụng client server giao tiếp với nhau qua giao tiếp HTTP/HTTPS.  
+RESTful (REpresentational State Transfer) là một kiểu thực hiện Web Service được viết dựa trên kiến trúc REST.  
+SOAP (stands for Simple Object Access Protocol) là kiểu thực hiện web Service.  
+
+### Có các loại RESTFull method nào ?  
+
+### Các bước tạo ra web server đơn giản bằng Express ?  
+
+### Routing là gì ?  
+
+### Nếu các khái niệm Route method, Route path, Route param ?  
+
+### Template engine là gì ?, trình bày cách để tạo template trong express  
+
+### Middleware là gì ?, Nếu các chức năng của middleware  
+
+### Nêu tác dụng của phương thức use, all, next()  
 
