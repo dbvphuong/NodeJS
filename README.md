@@ -194,20 +194,74 @@ là các hàm được dùng để tiền xử lý, lọc các request trước 
 
 # Database.  
 ### Database là gì ?  
-
+Database là cơ sở dữ liệu,nơi chứa tàn bộ dữ liệu.  
 ### DBMS là gì ? Có những loại DBMS nào ?  
-
+DBMS(Database Management System) là phần mềm hay hệ thống được thiết kế để quản trị một cơ sở dữ liệu  
+các loại DBMS: MySQL, Oracle, PostgreSQL, SQL Server, DB2, Infomix,...  
 ### SQL là gì ? Nếu các phương thức trong SQL ?  
-
+SQL(Structured Query Language) là ngôn ngữ cơ sở dữ liệu, được sử dụng để tạo, xóa trong cơ sở dữ liệu, lấy các hàng và sửa đổi các hàng,...  
+Các lệnh trong SQL:  CREATE, SELECT, INSERT, UPDATE, DELETE và DROP.  
 ### Cấu hình SQL server trong express như thế nào ?  
-
+Cấu hình kết nối:  
+```
+var conn = mysql.createConnection({
+    host    : "hostName",
+    user    : "phuong",
+    password: "",
+    database: "databaseName",
+});
+```
 ### Thực hiện Connect node với MySQL ?  
-
+```
+conn.connect();
+//hoặc
+conn.connect(function (err) {
+    //code
+});
+```
 ### No SQL DB là gì ?  
-
+No SQL DB là cơ sở dữ liệu quan hệ nguồn mở nhỏ không sử dụng SQL cho truy vấn.  
+No SQL DB có khả năng lưu trữ dữ liệu với lượng cực lớn, truy vấn dữ liệu với tốc độ cao mà không đòi hỏi quá nhiều về năng lực phần cứng cũng như tài nguyên hệ thống và tăng khả năng chịu lỗi.  
 ### Trình bày sự khác nhau giữa DBMS và RDBMS ?  
 
 ### Mongo DB là gì ? Cách cấu hình Mongo BD trong express ?  
+-MongoDB là một hệ quản trị cơ sở dữ liệu mã nguồn mở thuộc học NoSQL. Nó được thiết kế theo kiểu hướng đối tượng, các bảng trong MongoDB được cấu trúc rất linh hoạt, cho phép các dữ liệu lưu trữ trên bảng không cần tuân theo một cấu trúc nhất định nào cả.  
 
 ### Thực hiện Connect node voi MongoBD ?  
+-đầu tiên cài đặt mongobd: npm install mongodb  
+-require nó vào file cần sử dụng: var mongoClient = require('mongodb').MongoClient;  
+-connect: mongoClient.connect(url, function (err, db) { 
+});  
+Trong đó:  
+url là đường dẫn để kết nối đến mongoDB (nếu ở local mặc định sẽ là mongodb://127.0.0.1:27017).  
+err là biến chứa lỗi nếu có.  
+db là object chứa data kết nối.  
+ví dụ:  
+```
+var mongoClient = require('mongodb').MongoClient;
+mongoClient.connect('mongodb://127.0.0.1:27017', function (err, db) {
+    //neu ket noi khong thanh cong thi in ra loi
+    if (err) throw err;
+    //neu thanh cong thi log ra thong bao
+    console.log('Ket noi thanh cong');
+    db.close();
+    console.log('close thanh cong');
+});
+```
+# Testing  
+### Testing là gì ?. Tại sao testing là phần không thể thiếu trong một quy trình phần mềm ?  
+testing là kiểm tra xem hệ thống có đáp ứng các yêu cầu về tính năng, độ tin cậy, hiệu suất và bảo mật hay không khi chưa có GUI(giao diện).  
+### TDD la gi BDD la gi ?  
+TDD là một phương thức làm việc, hay một quy trình viết mã hiện đại  để kiểm tra lỗi code.  
+BDD 
+### Có những loại test nào ?. Phân loại và nêu ý nghĩa từ loại theo mô hình test pyramid  
+
+### Test runner là gì ? Test framework là gì ?  
+
+### Jest là gì ? Các bước để cấu hình test runner này ?  
+
+### Viết lại các case UT cho hàm tính giai thừa ?  
+
+### Nêu cấu trúc của một unit test theo BDD ?  
+
 
