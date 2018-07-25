@@ -166,20 +166,48 @@ Non-blocking socket là dạng kết nối asynchronous.
 express là 1 framework nhỏ , được xây dựng trên nền tảng nodejs, để cung cấp tính năng ptrien web.  
 ### WebServices la gi ? Có bao nhiêu loại: RESTfull, SOAP  
 Web Serice là 1 ứng dụng client server giao tiếp với nhau qua giao tiếp HTTP/HTTPS.  
-RESTful (REpresentational State Transfer) là một kiểu thực hiện Web Service được viết dựa trên kiến trúc REST.  
+RESTful (REpresentational State Transfer) là một kiểu thực hiện Web Service được viết dựa trên kiến trúc REST(kiến trúc tiêu chuẩn web sử dụng giao thức HTTP).  
 SOAP (stands for Simple Object Access Protocol) là kiểu thực hiện web Service.  
 
 ### Có các loại RESTFull method nào ?  
-
+-Để tạo một resouces: Thì sử dụng HTTP POST  
+-Để lấy một resouces: Thì sử dung HTTP GET  
+-Để update một resouces: Thì sử dụng HTTP PUT  
+-Để xóa một resouces: Thì sử dụng HTTP DELETE  
 ### Các bước tạo ra web server đơn giản bằng Express ?  
-
+-thiết kế API đơn giản, webservice tuân thủ REST, chỉ sử dụng 2 URL với mỗi tài nguyên.  
+-Để toàn verb( hành vi với dữ liệu) ra ngoài URL.  
+-Sử dụng đủ 4 thằng HTTP method POST, GET,PUT, DELETE để CRUD.  
+-sử dụng tên gọi rõ ràng, ngắn gọn.  
 ### Routing là gì ?  
-
+giúp website biết được người dùng truy cập đến nơi nào của trang web, từ đó phản hồi lại một cách thích hợp.  
 ### Nếu các khái niệm Route method, Route path, Route param ?  
-
+-Route methods: là sử dụng 4 phương thức post, get, put, delete.  
+-Route path: là xác định điểm cuối mà tại đó yêu cầu có thể được thực hiện, route path có thể là chuỗi, mẫu chuỗi hoặc biểu thức chính quy.  
+-Route param: đc đặt ten để phân đoạn của chúng trong đường link URL(điền trong req.params).  
 ### Template engine là gì ?, trình bày cách để tạo template trong express  
-
+Template engine giúp việc markup HTML trở nên nhanh chóng hơn nhiều lần so với cách viết bình thường.  
+cách cài đặt: npm install jade --global  
 ### Middleware là gì ?, Nếu các chức năng của middleware  
-
+là các hàm được dùng để tiền xử lý, lọc các request trước khi đưa vào xử lý logic hoặc điều chỉnh các response trước khi gửi về cho người dùng.  
 ### Nêu tác dụng của phương thức use, all, next()  
+
+# Database.  
+### Database là gì ?  
+
+### DBMS là gì ? Có những loại DBMS nào ?  
+
+### SQL là gì ? Nếu các phương thức trong SQL ?  
+
+### Cấu hình SQL server trong express như thế nào ?  
+
+### Thực hiện Connect node với MySQL ?  
+
+### No SQL DB là gì ?  
+
+### Trình bày sự khác nhau giữa DBMS và RDBMS ?  
+
+### Mongo DB là gì ? Cách cấu hình Mongo BD trong express ?  
+
+### Thực hiện Connect node voi MongoBD ?  
 
