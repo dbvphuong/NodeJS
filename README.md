@@ -253,9 +253,14 @@ mongoClient.connect('mongodb://127.0.0.1:27017', function (err, db) {
 testing là kiểm tra xem hệ thống có đáp ứng các yêu cầu về tính năng, độ tin cậy, hiệu suất và bảo mật hay không khi chưa có GUI(giao diện).  
 ### TDD la gi BDD la gi ?  
 TDD là một phương thức làm việc, hay một quy trình viết mã hiện đại  để kiểm tra lỗi code.  
-BDD 
+BDD là một quá trình phát triển phần mềm dựa trên phương pháp Agile(phát triển phần mềm linh hoạt).  
 ### Có những loại test nào ?. Phân loại và nêu ý nghĩa từ loại theo mô hình test pyramid  
-
+Functionality Test cases - Test cases Chức năng  
+User Interface Test cases - Test cases Giao diện người dùng  
+Perfome Test cases - Test cases Hiệu năng  
+ Usability Test cases - Test cases Hiệu dụng  
+ Security Test cases - Test cases Bảo mật  
+ User Acceptance Test cases - Test cases Chấp nhận người dùng   
 ### Test runner là gì ? Test framework là gì ?  
 
 ### Jest là gì ? Các bước để cấu hình test runner này ?  
